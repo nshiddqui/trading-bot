@@ -1,5 +1,5 @@
 /*
-Template Name: Dason - Bootstrap 5 Admin & Dashboard Template
+Template Name: Trading - Bootstrap 5 Admin & Dashboard Template
 Author: Themesdesign
 Version: 1.2.0.
 Website: https://themesdesign.in/

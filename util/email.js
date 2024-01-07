@@ -14,7 +14,7 @@ const sendEmail = async options => {
 
     // 2) Define the email options
     const mailOptions = {
-        from: 'dason admin<admin@dason.io>',
+        from: 'trading admin<admin@trading.io>',
         to: options.toid,
         subject: 'recover password',
         text: options.message

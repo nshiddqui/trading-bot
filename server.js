@@ -26,9 +26,9 @@ http.listen(process.env.PORT, () => console.log(`Server running on port ${proces
 
 /* --------- seeder ------------ */
 const migration = async () => {
-    const user = await User.find({ email: 'dason@themesbrand.com' });
+    const user = await User.find({ email: 'trading@themesbrand.com' });
     if (user.length == 0) {
-        await User.create({ email: 'dason@themesbrand.com', name: 'admin', location: 'surat', password: '12345678' });
+        await User.create({ email: 'trading@themesbrand.com', name: 'admin', location: 'surat', password: '12345678' });
     }
 }
 migration();
