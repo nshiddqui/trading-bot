@@ -15,10 +15,11 @@
     <%- include ('./head-css') %>
 </head>
 
-<body data-topbar="dark">
+<body data-layout="horizontal" data-topbar="dark">
     <div id="layout-wrapper">
-        <%- include ('./topbar') %>
-        <%- include ('./left-sidebar') %>
+
+        <!-- <%- include ('./header') %> -->
+        <%- include ('./horizontal-sidebar') %>
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
@@ -32,7 +33,6 @@
     <%- include ('./vendor-script')  %>
     <%- FooterJs %>
     <script src="assets/js/app.js"></script>
-    
 </body>
 
 </html>

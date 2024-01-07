@@ -14,6 +14,7 @@ const DB = process.env.DATABASE_LOCAL;
 //     process.env.DATABASE_PASSWORD
 // );
 
+mongoose.set("strictQuery", false);
 mongoose
     .connect(DB, {
         useNewUrlParser: true
